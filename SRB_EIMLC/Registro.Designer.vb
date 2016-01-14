@@ -27,7 +27,6 @@ Partial Class Registro
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripComboBox1 = New System.Windows.Forms.ToolStripComboBox()
-        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton2 = New System.Windows.Forms.ToolStripDropDownButton()
         Me.ReporteDetalladoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
@@ -200,7 +199,7 @@ Partial Class Registro
         '
         Me.ToolStrip1.AutoSize = False
         Me.ToolStrip1.BackColor = System.Drawing.Color.Gray
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripComboBox1, Me.ToolStripButton1, Me.ToolStripButton2, Me.ToolStripButton4, Me.ToolStripButton6, Me.ToolStripButton3})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripComboBox1, Me.ToolStripButton2, Me.ToolStripButton4, Me.ToolStripButton6, Me.ToolStripButton3})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(1276, 57)
@@ -211,16 +210,6 @@ Partial Class Registro
         '
         Me.ToolStripComboBox1.Name = "ToolStripComboBox1"
         Me.ToolStripComboBox1.Size = New System.Drawing.Size(121, 57)
-        '
-        'ToolStripButton1
-        '
-        Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
-        Me.ToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(52, 54)
-        Me.ToolStripButton1.Text = "Nuevo usuario"
         '
         'ToolStripButton2
         '
@@ -236,7 +225,7 @@ Partial Class Registro
         'ReporteDetalladoToolStripMenuItem
         '
         Me.ReporteDetalladoToolStripMenuItem.Name = "ReporteDetalladoToolStripMenuItem"
-        Me.ReporteDetalladoToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.ReporteDetalladoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ReporteDetalladoToolStripMenuItem.Text = "Reporte diario"
         '
         'ToolStripButton4
@@ -1650,7 +1639,6 @@ Partial Class Registro
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents ToolStrip1 As System.Windows.Forms.ToolStrip
     Friend WithEvents ToolStripComboBox1 As System.Windows.Forms.ToolStripComboBox
-    Friend WithEvents ToolStripButton1 As System.Windows.Forms.ToolStripButton
     Friend WithEvents ToolStripButton4 As System.Windows.Forms.ToolStripButton
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox

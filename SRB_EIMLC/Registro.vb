@@ -1490,7 +1490,7 @@ Public Class Registro
         Reportes.Show()
     End Sub
 
-    Private Sub ToolStripButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton1.Click
+    Private Sub ToolStripButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Form1.Show()
     End Sub
 
